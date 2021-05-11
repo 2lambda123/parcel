@@ -1,3 +1,9 @@
+**This is our fork of parcel@1 with updated dependencies**
+
+_We currently use it for our builds to avoid warnings about deprecated dependencies in the last parcel@1.12.4 release (2019)_
+
+---
+
 <p align="center">
   <a href="https://parceljs.org/" target="_blank">
     <img alt="Parcel" src="https://user-images.githubusercontent.com/19409/31321658-f6aed0f2-ac3d-11e7-8100-1587e676e0ec.png" width="749">
