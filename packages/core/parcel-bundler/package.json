@@ -1,12 +1,12 @@
 {
-  "name": "parcel-bundler",
-  "version": "1.12.5",
-  "description": "Blazing fast, zero configuration web application bundler",
+  "name": "@snapview/parcel-bundler",
+  "version": "0.12.5",
+  "description": "Fork of parcel@1.12.5",
   "main": "index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/parcel-bundler/parcel.git"
+    "url": "https://github.com/snapview/parcel.git"
   },
   "files": [
     "bin/",
