@@ -71,6 +71,16 @@ class ElmAsset extends Asset {
   }
 
   async generate() {
+    // SNAP-14375 Add --debug to elm compiler for dev environment builds
+    switch (process.env.SNAPVIEW_ENV ?? '') {
+      case 'dev':
+        this.elmOpts.debug = true;
+        this.elmOpts.optimize = false;
+        break;
+      default:
+        break;
+    }
+
     let compiled = await this.elm.compileToString(this.name, this.elmOpts);
     this.contents = compiled.toString();
     if (this.options.hmr) {

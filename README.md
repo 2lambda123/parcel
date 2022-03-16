@@ -2,6 +2,8 @@
 
 _We currently use it for our builds to avoid warnings about deprecated dependencies in the last parcel@1.12.4 release (2019)_
 
+Given the environment variable `SNAPVIEW_ENV=dev`, the elm debugger will be active for builds.
+
 ---
 
 <p align="center">
@@ -46,9 +48,9 @@ npm install -g parcel-bundler
 
 ```html
 <html>
-<body>
-  <script src="./index.js"></script>
-</body>
+  <body>
+    <script src="./index.js"></script>
+  </body>
 </html>
 ```
 
