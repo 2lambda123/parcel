@@ -1,6 +1,6 @@
 {
   "name": "@snapview/parcel-bundler",
-  "version": "0.12.5",
+  "version": "0.12.6",
   "description": "Fork of parcel@1.12.5",
   "main": "index.js",
   "license": "MIT",
